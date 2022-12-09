@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+<head>
+ <meta charset="UTF-8" />
+<title></title>
+</head>
+
+<body>
+<form method="get">
+<label>Username</label><br>
+<input type="text" name ="Username" minlength="5" maxlength="20" autofocus >
+<hr>
+<label>Email</label><br>
+<input type="email" name ="Email" value="o@o.com" readonly>
+
+<input type="hidden" name ="Token" value="b92f1fc2fce391ad7af633723afd3055">
+<hr>
+<h2>Chose Your Skills:</h2>
+<input type="checkbox" name="Skills" id="PS" value="Problem Solving" checked>
+<label for="PS">Problem Solving</label>
+<br>
+<input type="checkbox" name="Skills" id="LT" value="Logical Thinking">
+<label for="LT">Logical Thinking</label>
+<br>
+<input type="checkbox" name="Skills" id="AS" value="Advanced Search">
+<label for="AS">Advanced Search</label>
+<br>
+<input type="checkbox" name="Skills" id="An" value="Analysis">
+<label for="An">Analysis</label>
+<br>
+<input type="checkbox" name="Skills" id="Pl" value="Planning">
+<label for="Pl">Planning</label>
+<br>
+<hr>
+<h2>Chose Your Jop:</h2>
+<input type="radio" name="Jop" id="FED" value="Fornt-End Developer" checked>
+<label for="FED">Fornt-End Developer</label>
+<br>
+<input type="radio" name="Jop" id="BED" value="Back-End Developer">
+<label for="BED">Back-End Developer</label>
+<br>
+<input type="radio" name="Jop" id="BA" value="Business Analyst">
+<label for="BA">Business Analyst</label>
+<br>
+<input type="radio" name="Jop" id="PM" value="Project Manager">
+<label for="PM">Project Manager</label>
+<br>
+<input type="radio" name="Jop" id="SM" value="Scrum Master">
+<label for="SM">Scrum Master</label>
+<br><hr>
+<label for="Lang">Choose Book:</label>
+<select name="Book" id="Lang">
+<optgroup label="PHP">
+<option value="v5.0">v5.0</option>
+<option value="v7.0">v7.0</option>
+<option value="v8.0">v8.0</option>
+</optgroup>
+<optgroup label="Python">
+<option value="v2.0">v2.0</option>
+<option value="v3.0">v3.0</option>
+<option value="v3.9">v3.9</option>
+</optgroup>
+</select>
+<hr>
+
+<textarea name="brief"  clos="700" rows="8" placeholder="Write Here Why You Want To Learn Programming"></textarea>
+
+<br><br>
+<input type="reset" value="Empty">
+<input type="submit" value="Send">
+
+</form>
+</body>
+</html>
